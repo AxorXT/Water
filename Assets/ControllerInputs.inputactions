@@ -1,0 +1,75 @@
+{
+    "version": 1,
+    "name": "ControllerInputs",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "ac54534b-ac60-4201-970e-19b9a21ec286",
+            "actions": [
+                {
+                    "name": "ChangeToLiquid",
+                    "type": "Button",
+                    "id": "0984cce9-97ec-4e47-93e2-8f7f3a7d8c96",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ChangeToSolid",
+                    "type": "Button",
+                    "id": "d7b32ff0-d3cf-46a6-8bc7-f9888068e9d9",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ChangeToGas",
+                    "type": "Button",
+                    "id": "7d73a55e-c561-4f44-a976-7b76cc9ea1c5",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "6ea05d2d-c7a4-45a0-9d15-eb6f29ab836e",
+                    "path": "<Keyboard>/1",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ChangeToLiquid",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "66bffa39-6d6a-4b1e-9982-4543bc1a981c",
+                    "path": "<Keyboard>/2",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ChangeToSolid",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "753031c9-1106-404b-8100-bf6f191c969a",
+                    "path": "<Keyboard>/3",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ChangeToGas",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
